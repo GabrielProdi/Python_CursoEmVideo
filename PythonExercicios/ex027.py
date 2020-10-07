@@ -6,9 +6,8 @@
         último: Souza
 '''
 
-nome = str( input( 'Digite seu nome completo: ' ) ).strip()
-n = nome.split()
+nome = str( input( 'Digite seu nome completo: ' ) ).strip().split()
 
-print( 'Olá {}, seja bem vindo!\n'.format(nome),
-    'Seu primeiro nome é {}\n'.format( n[0] ),
-    'Seu último nome é {}'.format( n[ len(n) - 1 ] ) )
+print( 'Olá {}, seja bem vindo!\n'.format( ' '.join( nome ) ),
+    'Seu primeiro nome é {}\n'.format( nome[0] ),
+    'Seu último nome é {}'.format( nome[ len(nome) - 1 ] ) )
