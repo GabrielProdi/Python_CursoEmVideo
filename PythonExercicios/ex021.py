@@ -1,6 +1,6 @@
 ''' Faça um programa em Python que abra e reproduza o áudio de um arquivo MP3 '''
 
-#NOT_WORKING
+#NOT_WORKING ON VSCODE
 
 from pygame import mixer
 import os
